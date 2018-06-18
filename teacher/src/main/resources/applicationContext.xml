@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:component-scan base-package="com.luotao.demo.dubbozipkin.web"/>
+    <!--<bean id="zipkinConfigurer"-->
+          <!--class="com.luotao.demo.dubbozipkin.web.bean.ZipkinConfig">-->
+        <!--<property name="ignoreResourceNotFound" value="true"/>-->
+        <!--<property name="locations">-->
+            <!--<list>-->
+                <!--<value>classpath:bak/brave-web.properties</value>-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+    <!--<bean id="tracing" class="com.luotao.demo.dubbozipkin.web.bean.TracingFactoryBean">-->
+
+    <!--</bean>-->
+    <!--&lt;!&ndash;-->
+    <!--brave.name=teacher-->
+    <!--http.sender.address=http://127.0.0.1:9411/api/v2/spans-->
+    <!--brave.rate=1.0-->
+    <!--&ndash;&gt;-->
+    <!--<bean id="traceProperties" class="com.luotao.demo.dubbozipkin.web.bean.TraceProperties">-->
+        <!--<property name="zipkin" value="${http.sender.address}"/>-->
+        <!--<property name="serviceName" value="${brave.name}"/>-->
+        <!--<property name="rate" value="${brave.rate}"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="endpointFactoryBean" class="com.luotao.demo.dubbozipkin.web.bean.EndpointFactoryBean"/>-->
+
+    <!-- -->
+
+    <!--<bean id="brave" class="com.luotao.demo.dubbozipkin.web.FactoryBrave"/>-->
+
+    <import resource="application-dubbo.xml"/>
+    <import resource="application-mvc.xml"/>
+
+</beans>

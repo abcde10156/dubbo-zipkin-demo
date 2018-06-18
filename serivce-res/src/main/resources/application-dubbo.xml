@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+        http://www.springframework.org/schema/beans/spring-beans.xsd  
+        http://code.alibabatech.com/schema/dubbo  
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd  
+        ">       
+    <!-- 娑堣垂鏂瑰簲鐢ㄥ悕锛岀敤浜庤绠椾緷璧栧叧绯伙紝涓嶆槸鍖归厤鏉′欢锛屼笉瑕佷笌鎻愪緵鏂逛竴鏍� -->  
+    <dubbo:application name="res" />
+    <!--<dubbo:provider filter="traceFilter"/>-->
+    <!-- 浣跨敤鏈湴浼泦缇ゆ敞鍐屼腑蹇冩毚闇插彂鐜版湇鍔″湴鍧� -->  
+    <dubbo:registry  protocol="zookeeper"  address="localhost:2181" />
+   	<dubbo:protocol name="dubbo" port="2090" />
+    <dubbo:service interface="com.luotao.demo.dubbozipkin.res.ResService" ref="resService"  protocol="dubbo"/>   <!--  group="property1" -->
+
+</beans>  

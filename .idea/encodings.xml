@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-class/src/main/java/com/luotao/demo/dubbozipkin/common/BusiException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-class/src/main/java/com/luotao/demo/dubbozipkin/common/DrpcServerInterceptor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-class/src/main/java/com/luotao/demo/dubbozipkin/common/ExceptionUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-class/src/main/java/com/luotao/demo/dubbozipkin/common/JettyStartup.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-class/src/main/java/com/luotao/demo/dubbozipkin/request/RequestCommon.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-class/src/main/java/com/luotao/demo/dubbozipkin/request/RequestLong.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-class/src/main/java/com/luotao/demo/dubbozipkin/response/ResponseCommon.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-class/src/main/java/com/luotao/demo/dubbozipkin/response/ResponseOrder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-class/src/main/java/com/luotao/demo/dubbozipkin/response/ResponseRes.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/src/main/java/com/luotao/demo/dubbozipkin/common/DrpcServerInterceptor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/serivce-res/src/main/java/com/luotao/demo/dubbozipkin/res/MainResService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/serivce-res/src/main/java/com/luotao/demo/dubbozipkin/res/ResService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/serivce-res/src/main/java/com/luotao/demo/dubbozipkin/res/ResServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/serivce-res/src/main/resources/log4j.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-user/src/main/resources/application-dubbo.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/service-user/src/main/resources/applicationContext.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/service-user/src/main/resources/brave.properties" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/service-user/src/main/resources/log4j.properties" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/teacher" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/bak/AsyncReporterFactoryBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/bak/AsyncReporterFactoryBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/bak/HttpTracingFactoryBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/bak/HttpTracingFactoryBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/bak/TracingFactoryBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/bak/TracingFilter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/bak/brave-web.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/bak/log4j.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/src/main/java/com/luotao/demo/dubbozipkin/web/FilterClient.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/src/main/java/com/luotao/demo/dubbozipkin/web/TracingFilter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/src/main/java/com/luotao/demo/dubbozipkin/web/bean/AsyncReporterFactoryBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/src/main/java/com/luotao/demo/dubbozipkin/web/bean/HttpTracingFactoryBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/src/main/java/com/luotao/demo/dubbozipkin/web/bean/TracingFactoryBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/src/main/java/com/luotao/demo/dubbozipkin/web/bean/TracingHandlerInterceptor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/src/main/java/com/luotao/demo/dubbozipkin/web/bean/ZipkinConfig.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/src/main/java/com/luotao/demo/dubbozipkin/web/bean/ZipkinConfig.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/src/main/java/com/luotao/demo/dubbozipkin/web/bean/ZipkinConstants.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/src/main/resources/application-dubbo.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/src/main/resources/application-mvc.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/src/main/resources/applicationContext.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/teacher/src/main/webapp" charset="UTF-8" />
+  </component>
+</project>
